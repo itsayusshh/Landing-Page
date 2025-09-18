@@ -22,9 +22,9 @@ function Heropage() {
           <img className="template" src={Man}></img>
         </div>
         <div className="buttons">
-        <button></button>
-        <button></button>
-        <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
         </div>
       </div>
     </>

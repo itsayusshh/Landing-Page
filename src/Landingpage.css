@@ -4,7 +4,7 @@
 }
 
 .navbar {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   align-items: center;
 }
@@ -35,39 +35,38 @@
 .login {
   border-radius: 5px;
   font-size: 14px;
-  width: 91px;
-  padding: 7px;
+  width: 60px;
+  padding: 10px;
   color: #4caf4f;
   background-color: #f5f7fa;
   display: flex;
   justify-content: center;
   border: none;
-  margin-right: 20px;
   cursor: pointer;
+  align-items: center;
 }
 
 .authenticationcont {
   display: flex;
   flex-wrap: wrap;
-  justify-content: ;
 }
 
 .signup {
-  padding: 7px;
+  padding: 10px;
   font-size: 14px;
   text-align: center;
   color: white;
-  width: 91px;
+  width: 70px;
   background-color: #4caf4f;
   border-radius: 5px;
   border: none;
-  padding: 7px;
   cursor: pointer;
+  margin-left: 40px;
 }
 
 .maincontainer {
   display: flex;
-  height: calc(100vh - 70px);
+  height: calc(100vh - 61px);
   width: 100%;
   background-color: #f5f7fa;
   justify-content: space-evenly;
@@ -131,9 +130,10 @@
 }
 
 button {
-  height: 10px;
+  padding: 3px;
   width: 10px;
   color: #4d4d4d;
   border-radius: 5px;
   margin: 0 5px;
+  cursor: pointer;
 }
