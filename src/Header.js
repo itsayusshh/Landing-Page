@@ -1,10 +1,12 @@
 import Logo from "./Logo from Figma.png";
+import Hamburger from "./hamburger.js"
 
 function Header() {
   return (
     <>
       <div className="navbar">
         <img className="logo" src={Logo}></img>
+        <Hamburger />
         <ul className="menucontainer">
           <li>Home</li>
           <li>Service</li>
