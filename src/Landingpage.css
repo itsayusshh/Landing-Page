@@ -209,3 +209,32 @@ button {
     transition-duration: 0.5s;
   }
 }
+
+.P-mainbox {
+  width: 100%;
+}
+
+.P-mainbox1 {
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+.Clients {
+  width: 100vw;
+  color: #717171;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.details {
+   width: 100vw;
+  color: #717171;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.logocard {
+  
+}
