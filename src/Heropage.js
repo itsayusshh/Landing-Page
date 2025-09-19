@@ -3,7 +3,7 @@ import Man from "./Landingpageman.png";
 function Heropage() {
   return (
     <>
-      <div className="maincontainer">
+      <div className="maincontainer"> 
         <div className="container1">
           <div className="subcont1">
             <p className="insights1">Lesson and insights</p>
