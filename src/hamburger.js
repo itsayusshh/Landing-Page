@@ -1,11 +1,14 @@
 function Hamburger() {
-  return (<>
-    <div className="Containerhamburger">
-      <div className="list"></div>
-      <div className="list"></div>
-      <div className="list"></div>
-    </div>
-  </>
+  const hamburgerlines = [1, 2, 3];
+
+  return (
+    <>
+      <div className="Containerhamburger">
+        {hamburgerlines.map(() => {
+          return <div className="list"></div>;
+        })}
+      </div>
+    </>
   );
 }
 

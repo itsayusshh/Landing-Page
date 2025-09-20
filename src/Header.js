@@ -1,5 +1,5 @@
 import Logo from "./Logo from Figma.png";
-import Hamburger from "./hamburger.js"
+import Hamburger from "./Hamburger.js";
 
 function Header() {
   return (

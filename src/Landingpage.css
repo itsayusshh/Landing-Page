@@ -190,6 +190,9 @@ button {
     font-size: 40px;
     text-align: center;
     transition-duration: 0.5s;
+
+    .Logos-container {
+    }
   }
 
   .insights3 {
@@ -208,6 +211,15 @@ button {
     border: 2px solid black;
     transition-duration: 0.5s;
   }
+
+  .Logos-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .suitable {
+    font: 18px;
+  }
 }
 
 .P-mainbox {
@@ -219,9 +231,8 @@ button {
   padding: 10px;
 }
 
-
-
 .Clients {
+  padding: 10px 0 10px 0;
   width: 100vw;
   color: #717171;
   font-size: 25px;
@@ -229,12 +240,78 @@ button {
 }
 
 .details {
-   width: 100vw;
+  padding: 10px 0 10px 0;
+  width: 100vw;
   color: #717171;
   font-size: 15px;
   font-weight: 200;
 }
 
 .logocard {
-  
+}
+
+.Logos-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Logos-container img {
+  margin: 20px 20px 0 20px;
+}
+
+.Community {
+  width: 100%;
+}
+
+.Community-Holder {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.Community {
+  color: #4d4d4d;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.singlesystem {
+  color: #4d4d4d;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.suitable {
+  margin-top: 10px;
+  color: #4d4d4d;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.Card {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.companyCard {
+  height: 150px;
+  width: 20%;
+}
+
+.companyCard img {
+  height: 40px;
+  padding: 7px;
+}
+
+.Member {
+  color: #4d4d4d;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Membership {
+  color: #4d4d4d;
+  padding: 7px;
+  font-size: 15px;
+  font-weight: 200;
 }
