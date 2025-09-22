@@ -1,5 +1,5 @@
-import Logo from "./Logo.js";
-import Pictures from "./Logo.js";
+import Logo from "./Pictures.js";
+import Pictures from "./Pictures.js";
 import Rafiki from "./rafiki.png";
 
 import ComopanyLogo1 from "./Logo (0).png";

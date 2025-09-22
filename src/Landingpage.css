@@ -353,7 +353,6 @@ button {
   font-size: 30px;
   font-weight: 600;
   width: 520px;
-  padding: ;
 }
 
 .img-title-subtitle {
@@ -363,11 +362,6 @@ button {
   font-weight: 300;
   font-size: 14px;
   width: 520px;
-}
-
-.img-titile-button {
-  justify-content: start;
-  display: flex;
 }
 
 .img-titile-button button {
@@ -383,4 +377,94 @@ button {
 
 .marquee {
   direction: left;
+}
+
+.NB-mainpage {
+  width: 100%;
+}
+
+.NB-1container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.NB-2container {
+  width: 50%;
+}
+
+.Panacss {
+  height: 300px;
+  width: 300px;
+}
+
+.Business-analayis {
+  display: flex;
+  margin-top: 100px;
+}
+
+.Business-analayis {
+  padding: 60px;
+  background-color: #F5F7FA;
+}
+
+.Members-grp1 {
+  align-content: center;
+  width: 50%;
+}
+
+.Members-grp1 div:nth-child(1) {
+  color: #4d4d4d;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Members-grp1 div:nth-child(2) {
+  font-size: 32px;
+  color: #4caf4f;
+  font-weight: 600;
+}
+.Members-grp1 div:nth-child(3) {
+  margin-top: 5px;
+  color: #18191f;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.Members-grp2 {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.NB-mainpage {
+  margin-top: 100px;
+  display: flex;
+}
+
+.NB-2container-title {
+  color: #4d4d4d;
+  font-size: 30px;
+  font-weight: 600;
+  width: 520px;
+}
+
+.NB-2container-subtitle {
+  text-align: justify;
+  margin-top: 20px;
+  color: #4d4d4d;
+  font-weight: 300;
+  font-size: 14px;
+  width: 520px;
+}
+
+.NB-2container-button button {
+  margin-top: 20px;
+  margin-left: 0px;
+  font-size: 15px;
+  color: white;
+  background-color: #4caf4f;
+  padding: 10px;
+  width: 149px;
+  border: none;
 }
