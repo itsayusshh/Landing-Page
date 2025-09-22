@@ -10,7 +10,9 @@ function Header() {
         <ul className="menucontainer">
           <li>Home</li>
           <li>Service</li>
-          <li>Feature</li>
+          <li>
+            <a href="#container2">Feature</a>
+          </li>
           <li>Product</li>
           <li>Testimonal</li>
           <li>Faq</li>

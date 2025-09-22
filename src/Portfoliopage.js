@@ -85,7 +85,7 @@ function Portfoliopage() {
         <div className="img-con">
           <img src={Rafiki}></img>
         </div>
-        <div className="container2">
+        <div id="container2">
           <div className="img-titile-title">
             The unseen of spending three years at Pixelgrade
           </div>
