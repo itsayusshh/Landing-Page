@@ -3,6 +3,11 @@
   padding: 0px;
 }
 
+.mainwrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
 .navbar {
   padding: 10px;
   display: flex;
@@ -232,6 +237,7 @@ button {
 }
 
 .Clients {
+  margin-top: 50px;
   padding: 10px 0 10px 0;
   width: 100vw;
   color: #717171;
@@ -240,6 +246,7 @@ button {
 }
 
 .details {
+  margin-top: 10px;
   padding: 10px 0 10px 0;
   width: 100vw;
   color: #717171;
@@ -247,10 +254,8 @@ button {
   font-weight: 200;
 }
 
-.logocard {
-}
-
 .Logos-container {
+  margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -259,12 +264,8 @@ button {
   margin: 20px 20px 0 20px;
 }
 
-.Community {
-  width: 100%;
-}
-
 .Community-Holder {
-  margin-top: 20px;
+  margin-top: 100px;
   width: 100%;
 }
 
@@ -288,14 +289,18 @@ button {
 }
 
 .Card {
-  margin-top: 30px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
 }
 
 .companyCard {
-  height: 150px;
   width: 20%;
+  border-radius: 20px;
+}
+
+.companyCard:hover {
+  box-shadow: -1px 7px 20px 1px #f2f1f1;
 }
 
 .companyCard img {
@@ -314,4 +319,53 @@ button {
   padding: 7px;
   font-size: 15px;
   font-weight: 200;
+}
+
+.container {
+  margin-top: 150px;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.img-con {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.img-con img {
+  height: 300px;
+  width: 400px;
+}
+
+.container2 {
+  width: 50%;
+}
+
+.img-titile-title {
+  color: #4d4d4d;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.img-title-subtitle {
+  text-align: justify;
+  margin-top: 10px;
+  color: #4d4d4d;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.img-titile-button {
+  margin-top: 20px;
+  justify-content: start;
+  display: flex;
+}
+
+.container button {
+  padding: 10px;
+  width: 103px;
+  align-items: center;
+  justify-content: center;
 }

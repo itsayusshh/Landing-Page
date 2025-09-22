@@ -5,12 +5,12 @@ import Portfoliopage from "./Portfoliopage.js";
 
 function App() {
   return (
-    <>
+    <div className="mainwrapper">
       <Header />
       <Heropage />
       <Portfoliopage/>
       
-    </>
+    </div>
   );
 }
 

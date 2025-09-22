@@ -1,5 +1,6 @@
 import Logo from "./Logo.js";
 import Pictures from "./Logo.js";
+import Rafiki from "./rafiki.png";
 
 import ComopanyLogo1 from "./Logo (0).png";
 import ComopanyLogo2 from "./Logos (1).png";
@@ -39,7 +40,11 @@ const cards = [
   },
   {
     img: Print3,
-    title: "Clubs And Groups",
+    title: (
+      <>
+        Clubs And <br /> Groups
+      </>
+    ),
     subtitle:
       "Our membership management software provides full automation of membership renewals and payments",
   },
@@ -74,6 +79,29 @@ function Portfoliopage() {
               />
             );
           })}
+        </div>
+      </div>
+      <div className="container">
+        <div className="img-con">
+          <img src={Rafiki}></img>
+        </div>
+        <div className="container2">
+          <div className="img-titile-title">
+            The unseen of spending three years at Pixelgrade
+          </div>
+          <div className="img-title-subtitle">
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+              amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
+              Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
+              tristique iaculis. Nullam pulvinar sit amet risus pretium auctor.
+              Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
+              elementum pulvinar odio.
+            </div>
+          </div>
+          <div className="img-titile-button">
+            <button>Learn More</button>
+          </div>
         </div>
       </div>
     </div>
