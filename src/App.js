@@ -3,6 +3,7 @@ import Landingage from "./Landingpage.css";
 import Heropage from "./Heropage.js";
 import Portfoliopage from "./Portfoliopage.js";
 import Networkbar from "./Networksbar.js";
+import Reviewbox from "./Reviewbox.js";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <Heropage />
       <Portfoliopage />
-      {/* <Networkbar />  */}
+      <Networkbar />
+      <Reviewbox />
     </div>
   );
 }

@@ -15,7 +15,7 @@ import Print1 from "./MinimalLandingPageIcon.png";
 import Print2 from "./Icon 2.png";
 import Print3 from "./Icon 3.png";
 
-const newlogo = [
+export const newlogo = [
   ComopanyLogo1,
   ComopanyLogo2,
   ComopanyLogo3,
@@ -87,9 +87,7 @@ function Portfoliopage() {
         </div>
         <div id="container2">
           <div className="img-titile-title">
-            <p>
-            The unseen of spending three years at Pixelgrade
-            </p>
+            <p>The unseen of spending three years at Pixelgrade</p>
           </div>
           <div className="img-title-subtitle">
             <p>
@@ -105,7 +103,7 @@ function Portfoliopage() {
             <button>Learn More</button>
           </div>
         </div>
-      </div> 
+      </div>
     </div>
   );
 }

@@ -360,7 +360,7 @@ button {
   margin-top: 5px;
   color: #18191f;
   font-size: 13px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .Members-grp2 {
@@ -514,7 +514,75 @@ button {
   }
 
   .img-titile-button {
-    align-items: center;
-    margin-left: 92px;
+    margin-left: 120px;
+  }
+
+  .Business-analayis {
+    display: block;
+    padding: 30px;
+  }
+
+  .Members-grp1 {
+    width: 100%;
+  }
+
+  .Members-grp2 {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .Members-grp1 div:nth-child(2) {
+    margin-top: 5px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .Members-grp1 div:nth-child(1) {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .Members-grp1 div:nth-child(3) {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 00;
+  }
+
+  .NB-mainpage {
+    display: block;
+  }
+
+  .NB-1container {
+    width: 100%;
+  }
+
+  .NB-2container {
+    justify-items: center;
+    width: 100%;
+  }
+  .NB-2container-title {
+    width: 100%;
+  }
+
+  .NB-2container-title p {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .NB-2container-subtitle {
+    margin: 0%;
+    width: 100%;
+  }
+
+  .NB-2container-subtitle p {
+    text-align: justify;
+    padding: 20px;
+  }
+
+  .NB-2container-button {
+    justify-content: center;
   }
 }
