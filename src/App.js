@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Heropage />
       <Portfoliopage />
-      <Networkbar />
+      {/* <Networkbar />  */}
     </div>
   );
 }

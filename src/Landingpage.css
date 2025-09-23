@@ -156,77 +156,6 @@ button {
   background-color: #4d4d4d;
 }
 
-@media only screen and (max-width: 1000px) {
-  .menucontainer {
-    display: none;
-    transition-duration: 0.2s;
-  }
-  .Containerhamburger {
-    display: flex;
-    transition-duration: 0.5s;
-  }
-
-  .maincontainer {
-    flex-direction: column;
-    width: 100%;
-    transition-duration: 0.5s;
-  }
-
-  .container1 {
-    padding: 0px;
-    width: 100%;
-    transition-duration: 0.5s;
-  }
-
-  .insights1 {
-    font-size: 30px;
-    font-weight: 900;
-    text-align: center;
-    transition-duration: 0.5s;
-  }
-
-  .subcont3 {
-    font-weight: bolder;
-    text-align: center;
-    transition-duration: 0.5s;
-  }
-
-  .insights2 {
-    font-size: 40px;
-    text-align: center;
-    transition-duration: 0.5s;
-
-    .Logos-container {
-    }
-  }
-
-  .insights3 {
-    font-size: 11px;
-    font-weight: 700;
-    transition-duration: 0.5s;
-  }
-
-  .template {
-    height: 300px;
-    width: 300px;
-    transition-duration: 0.5s;
-  }
-
-  button {
-    border: 2px solid black;
-    transition-duration: 0.5s;
-  }
-
-  .Logos-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .suitable {
-    font: 18px;
-  }
-}
-
 .P-mainbox {
   width: 100%;
 }
@@ -297,6 +226,10 @@ button {
   justify-content: space-evenly;
 }
 
+.Card p {
+  text-align: center;
+}
+
 .companyCard {
   width: 20%;
   border-radius: 20px;
@@ -317,6 +250,7 @@ button {
   color: #4d4d4d;
   font-size: 30px;
   font-weight: 600;
+  text-align: justify;
 }
 
 .Membership {
@@ -345,14 +279,12 @@ button {
 }
 
 #container2 {
-  width: 50%;
 }
 
 .img-titile-title {
   color: #4d4d4d;
   font-size: 30px;
   font-weight: 600;
-  width: 520px;
 }
 
 .img-title-subtitle {
@@ -405,7 +337,7 @@ button {
 
 .Business-analayis {
   padding: 60px;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
 }
 
 .Members-grp1 {
@@ -467,4 +399,122 @@ button {
   padding: 10px;
   width: 149px;
   border: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .menucontainer {
+    display: none;
+    transition-duration: 0.2s;
+  }
+  .Containerhamburger {
+    display: flex;
+    transition-duration: 0.5s;
+  }
+
+  .maincontainer {
+    flex-direction: column;
+    width: 100%;
+    transition-duration: 0.5s;
+  }
+
+  .container1 {
+    padding: 0px;
+    width: 100%;
+    transition-duration: 0.5s;
+  }
+
+  .insights1 {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    transition-duration: 0.5s;
+  }
+
+  .subcont3 {
+    font-weight: bolder;
+    text-align: center;
+    transition-duration: 0.5s;
+  }
+
+  .insights2 {
+    font-size: 40px;
+    text-align: center;
+    transition-duration: 0.5s;
+  }
+
+  .Membership {
+    width: 90%;
+  }
+
+  .Membership p {
+    margin-top: 10px;
+  }
+
+  .Member p {
+    font-size: 15px;
+  }
+
+  .insights3 {
+    font-size: 11px;
+    font-weight: 700;
+    transition-duration: 0.5s;
+  }
+
+  .template {
+    height: 300px;
+    width: 300px;
+    transition-duration: 0.5s;
+  }
+
+  button {
+    border: 2px solid black;
+    transition-duration: 0.5s;
+  }
+
+  .Logos-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .suitable {
+    font: 18px;
+  }
+
+  .P-mainbox {
+    margin-top: 30px;
+  }
+
+  .Card {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 90%;
+  }
+
+  .companyCard {
+    width: 90%;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .img-con {
+    display: block;
+  }
+
+  .img-titile-title p {
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  .img-title-subtitle {
+    width: 360px;
+    font-size: 15px;
+  }
+
+  .img-titile-button {
+    align-items: center;
+    margin-left: 92px;
+  }
 }

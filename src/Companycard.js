@@ -4,8 +4,12 @@ function Cardmain({ img, title, subtitle }) {
       <div className="invidualimage">
         <img src={img}></img>
       </div>
-      <div className="Member">{title}</div>
-      <div className="Membership">{subtitle}</div>
+      <div className="Member">
+        <p>{title}</p>
+      </div>
+      <div className="Membership">
+        <p>{subtitle}</p>
+      </div>
     </div>
   );
 }
