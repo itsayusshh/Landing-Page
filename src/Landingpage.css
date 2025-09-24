@@ -401,6 +401,103 @@ button {
   border: none;
 }
 
+.Review-mainbox {
+  margin-top: 30px;
+  background-color: #f5f7fa;
+}
+
+.Review-mainbox1 {
+  background-color: #f5f7fa;
+  margin-left: 40%;
+  padding: 20px;
+}
+
+.Review-mainbox1 p {
+  color: #717171;
+}
+
+.Review-mainbox-title p {
+  margin-top: 10px;
+  color: #4caf4f;
+  font-weight: 500;
+}
+
+.Review-mainbox1 div:nth-child(3) p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #89939e;
+}
+
+.Review-Customers {
+  width: 300px;
+  display: flex;
+}
+
+.Review-Customers p {
+  text-align: justify;
+  margin-left: 20px;
+  color: #4caf4f;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Review-mainbox1 p {
+  width: 600px;
+  align-items: flex-end;
+}
+
+.Review-mainbox-logo {
+  margin-top: 15px;
+  align-items: center;
+  display: flex;
+  font-weight: 450;
+  cursor: pointer;
+}
+
+.Review-mainbox-logo div {
+  margin-right: 15px;
+}
+
+.Advertisement h3 {
+  margin-top: 50px;
+  text-align: center;
+  color: #4d4d4d;
+}
+
+.Advertisement :nth-child(2) {
+  margin-top: 20px;
+  margin-left: 20%;
+}
+
+.Advertisement :nth-child(2) p {
+  text-align: center;
+  color: #717171;
+  width: 70%;
+}
+
+.Advertisement-card {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 20px;
+  display: flex;
+}
+
+.Advertisement-card div {
+  font-weight: 600;
+  background-color: #F5F7FA;
+  margin-top: 30%;
+  color: #717171;
+  border-radius: 5px;
+  padding: 20px;
+  width: 25%;
+  margin-left: 20px;
+  text-align: center;
+  border: 1px solid whitesmoke;
+}
+
+.Advertisement-card p {
+}
+
 @media only screen and (max-width: 1000px) {
   .menucontainer {
     display: none;
@@ -583,6 +680,49 @@ button {
   }
 
   .NB-2container-button {
+    text-align: center;
+  }
+
+  .Review-mainbox1 {
+    margin: 0px;
+  }
+
+  .Review-mainbox1 p {
+    font-size: 12px;
+    text-align: justify;
+    width: 370px;
+  }
+
+  .Review-mainbox-title {
     justify-content: center;
+  }
+
+  .Review-mainbox-title p {
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .Review-mainbox1 :nth-child(3) p {
+    text-align: center;
+  }
+
+  .Review-mainbox-logo {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Review-mainbox-logo div {
+    margin-left: 30px;
+  }
+
+  .Review-Customers {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .Review-Customers p {
+    margin-right: 10%;
+    text-align: center;
   }
 }
