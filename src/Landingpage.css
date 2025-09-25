@@ -128,15 +128,6 @@
   bottom: 10px;
 }
 
-button {
-  padding: 3px;
-  width: 10px;
-  color: #4d4d4d;
-  border-radius: 5px;
-  margin: 0 5px;
-  cursor: pointer;
-}
-
 .Containerhamburger {
   display: none;
   justify-content: center;
@@ -484,7 +475,7 @@ button {
 
 .Advertisement-card div {
   font-weight: 600;
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
   margin-top: 30%;
   color: #717171;
   border-radius: 5px;
@@ -495,7 +486,74 @@ button {
   border: 1px solid whitesmoke;
 }
 
-.Advertisement-card p {
+.Pellentesque {
+  padding-top: 10px;
+  background-color: #f5f7fa;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.Pellentesque h1 {
+  margin-top: 20px;
+  margin-left: 30%;
+  font-size: xxx-large;
+  width: 520px;
+  text-align: center;
+}
+
+.Pellentesque-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  padding: 5px;
+  width: 120px;
+  background-color: #4caf4f;
+  border: none;
+  border-radius: 3px;
+}
+
+.Pellentesque-2 {
+  display: flex;
+  justify-content: center;
+  color: #717171;
+  background-color: #263238;
+  padding: 50px;
+}
+
+.Pellentesque-2 img {
+  margin-top: 30px;
+  padding: 10px;
+  height: 30px;
+}
+
+.Pellentesque-2-sec1 {
+  color: #f5f7fa;
+  text-align: start;
+  width: 50%;
+}
+
+.Pellentesque-0 {
+  width: 50%;
+  height: 50%;
+  font-size: 15px;
+}
+
+.Pellentesque-2-sec2 {
+  display: flex;
+}
+
+.Pellentesque-2-sec2 div {
+  padding: 30px;
+}
+
+.Airplane {
+  margin-top: 1px;
+  padding: 1px;
+  height: 1px;
+}
+
+.airplane {
+  margin-top: 1px;
 }
 
 @media only screen and (max-width: 1000px) {

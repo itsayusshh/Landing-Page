@@ -5,15 +5,18 @@ import Advertising from "./Advertising.js";
 const Advertise = [
   {
     title: "Creating Streamlined Safeguarding Processes with OneRen",
+    Subtitle: "Readmore",
   },
 
   {
     title:
       "What are your safeguarding responsibilities and how can you manage them",
+    Subtitle: "Readmore",
   },
 
   {
     title: "Revamping the Membership Model with Triathlon Australia",
+    Subtitle: "Readmore",
   },
 ];
 
