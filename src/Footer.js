@@ -11,9 +11,9 @@ function Footer() {
       <div className="Pellentesque-2">
         <div className="Pellentesque-2-sec1">
           <div className="Pellentesque-0">
-            <img src={Logo}></img>
-            <p>Copyright © 2025 Nexcent ltd.</p>
-            <p>All rigth reserved</p>
+            <img className="Pellentesque-0-img" src={Logo}></img>
+            <p style={{ width: "370px" }}>Copyright © 2025 Nexcent ltd.</p>
+            <p style={{ marginRight: "20px" }}>All rigth reserved</p>
           </div>
         </div>
         <div className="Pellentesque-2-sec2">
@@ -43,7 +43,7 @@ function Footer() {
             <h4 style={{ color: "#FFFFFF", fontWeight: "bold" }}>
               Stay up to date
             </h4>
-            <button>
+            <button className="airplane1">
               Your email address <img className="airplane" src={Airplane}></img>
             </button>
           </div>

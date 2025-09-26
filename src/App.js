@@ -6,6 +6,10 @@ import Networkbar from "./Networksbar.js";
 import Reviewbox from "./Reviewbox.js";
 import Footer from "./Footer.js"
 
+
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 function App() {
   return (
     <div className="mainwrapper">

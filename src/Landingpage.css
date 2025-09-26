@@ -520,7 +520,7 @@
   padding: 50px;
 }
 
-.Pellentesque-2 img {
+.Pellentesque-0-img {
   margin-top: 30px;
   padding: 10px;
   height: 30px;
@@ -536,6 +536,11 @@
   width: 50%;
   height: 50%;
   font-size: 15px;
+  text-align: end;
+}
+
+.Pellentesque-0 p:nth-child(1) {
+  margin-left: 10px;
 }
 
 .Pellentesque-2-sec2 {
@@ -550,11 +555,31 @@
   margin-top: 1px;
   padding: 1px;
   height: 1px;
+  margin-left: 55px;
 }
 
 .airplane {
-  margin-top: 1px;
+  margin-left: 37%;
+  height: 12px;
+  width: 12px;
 }
+
+.airplane1 {
+  margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #717171;
+  width: 200px;
+  padding: 5px;
+  color: white;
+  font-size: 12px;
+  text-align: start;
+}
+
+.img-con img {
+  margin-left: 150px;
+}
+
 
 @media only screen and (max-width: 1000px) {
   .menucontainer {
@@ -782,5 +807,67 @@
   .Review-Customers p {
     margin-right: 10%;
     text-align: center;
+  }
+
+  .Advertisement-card {
+    margin-top: 50px;
+    display: block;
+    margin-left: 5%;
+  }
+
+  .Advertisement-card div {
+    margin-top: 20px;
+    font-weight: 600;
+    background-color: #f5f7fa;
+    color: #717171;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid whitesmoke;
+  }
+
+  .Advertisement :nth-child(2) {
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .Advertisement :nth-child(2) p {
+    text-align: justify;
+    padding: 10px;
+    width: 95%;
+  }
+
+  .Pellentesque h1 {
+    margin-left: 0px;
+    font-size: medium;
+    width: 100%;
+  }
+
+  .Pellentesque-2 {
+    display: block;
+    padding: 10px;
+  }
+
+  .Pellentesque-2-sec1 {
+    width: 100%;
+  }
+
+  .Pellentesque-2-sec2 {
+    display: block;
+    text-align: center;
+  }
+
+  .airplane1 {
+    width: 62%;
+  }
+
+  .Pellentesque-0 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .Pellentesque-0-img {
+    height: 50px;
   }
 }

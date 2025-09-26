@@ -1,6 +1,4 @@
-import Logo from "./Pictures.js";
 import Pictures from "./Pictures.js";
-import Rafiki from "./rafiki.png";
 
 import ComopanyLogo1 from "./Logo (0).png";
 import ComopanyLogo2 from "./Logos (1).png";
@@ -14,6 +12,7 @@ import Cardmain from "./Companycard.js";
 import Print1 from "./MinimalLandingPageIcon.png";
 import Print2 from "./Icon 2.png";
 import Print3 from "./Icon 3.png";
+import SliderComp from "./SliderComp.js";
 
 export const newlogo = [
   ComopanyLogo1,
@@ -83,7 +82,8 @@ function Portfoliopage() {
       </div>
       <div className="container">
         <div className="img-con">
-          <img src={Rafiki}></img>
+          
+          {/* <img src={Rafiki}></img> */}
         </div>
         <div id="container2">
           <div className="img-titile-title">

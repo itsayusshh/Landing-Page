@@ -3,6 +3,8 @@ function Advertising({ adver }) {
     <>
       <div>
         <p>{adver}</p>
+        <br />
+        <a style={{color: "#4CAF4F"}}>Read More →</a>
       </div>
     </>
   );

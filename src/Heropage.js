@@ -1,10 +1,12 @@
 import Man from "./Landingpageman.png";
+import SliderComp from "./SliderComp.js";
+
 
 function Heropage() {
   return (
     <>
       <div className="maincontainer"> 
-        <div className="container1">
+         <div className="container1">
           <div className="subcont1">
             <p className="insights1">Lesson and insights</p>
           </div>
@@ -25,7 +27,7 @@ function Heropage() {
           <button></button>
           <button></button>
           <button></button>
-        </div>
+        </div> 
       </div>
     </>
   );
