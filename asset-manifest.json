@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Landing-Page/static/css/main.a9ce2e5f.css",
+    "main.js": "/Landing-Page/static/js/main.0dc9c1eb.js",
+    "static/js/453.8145ecbf.chunk.js": "/Landing-Page/static/js/453.8145ecbf.chunk.js",
+    "static/media/Landingpageman.png": "/Landing-Page/static/media/Landingpageman.6788ec4c9be5b76da224.png",
+    "static/media/Nextcentlogo.png": "/Landing-Page/static/media/Nextcentlogo.faa4e6f3067db27e7575.png",
+    "static/media/rafiki.png": "/Landing-Page/static/media/rafiki.bc8a1342e73352f7da3b.png",
+    "static/media/pana.png": "/Landing-Page/static/media/pana.67fa9986535c6bdd02d0.png",
+    "static/media/girl using phone.jpg": "/Landing-Page/static/media/girl using phone.f223684f8c780311435e.jpg",
+    "static/media/girlchatting.jpg": "/Landing-Page/static/media/girlchatting.514bad7fc30f4913cf5c.jpg",
+    "static/media/slick.svg": "/Landing-Page/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Landing-Page/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Landing-Page/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Landing-Page/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Landing-Page/index.html",
+    "main.a9ce2e5f.css.map": "/Landing-Page/static/css/main.a9ce2e5f.css.map",
+    "main.0dc9c1eb.js.map": "/Landing-Page/static/js/main.0dc9c1eb.js.map",
+    "453.8145ecbf.chunk.js.map": "/Landing-Page/static/js/453.8145ecbf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9ce2e5f.css",
+    "static/js/main.0dc9c1eb.js"
+  ]
+}
