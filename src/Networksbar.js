@@ -52,8 +52,8 @@ function Networkbar() {
               ipsum id gravida.
             </p>
           </div>
-          <div className="NB-2container-button">
-            <button>Learn More</button>
+          <div>
+            <button className="NB-2container-buttonss">Learn More</button>
           </div>
         </div>
       </div>

@@ -1,7 +1,34 @@
 import Logo from "./Nextcentlogo.png";
 import Airplane from "./airplane.png";
+import Button from "./Button.js";
+
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 function Footer() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    console.log("button click", e);
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_sdz97ym", "template_f2yyomm", form.current, {
+        publicKey: "q_l7Iktedxfb_Pqa3",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          form.current.reset();
+          alert("Success");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          alert("Failed");
+        }
+      );
+  };
+
   return (
     <>
       <div className="Pellentesque">
@@ -9,21 +36,26 @@ function Footer() {
         <button className="Pellentesque-button">Get a demo →</button>
       </div>
       <br />
-      <form className="ContactForm">
+      <form ref={form} onSubmit={sendEmail} className="ContactForm">
         <h4 className="Form">Please fill the form below to contact us!!</h4>
         <br />
         <div className="Row1">
-          <input className="text" placeholder="First name" />
-          <input type="text" placeholder="Last name" />
+          <input className="text" name="user_name" />
         </div>
         <br />
         <div className="Row2">
-          <input type="email" placeholder="Please type your email" />
+          <input
+            type="email"
+            name="user_email"
+            placeholder="Please type your email"
+          />
         </div>
         <br />
         <div className="Row3">
-          <input type="text" placeholder="Reviewbox" />
+          <input type="text" name="message" placeholder="Reviewbox" />
         </div>
+
+        <Button buttonType="submit" />
       </form>
       <br />
       <div className="Pellentesque-2">

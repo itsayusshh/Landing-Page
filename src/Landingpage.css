@@ -381,7 +381,7 @@
   width: 520px;
 }
 
-.NB-2container-button button {
+.NB-2container-buttonss {
   margin-top: 20px;
   margin-left: 0px;
   font-size: 15px;
@@ -621,6 +621,21 @@
   border: none;
   padding: 10px 0 10px 0;
   background-color: #f3f3f3;
+}
+
+.Submit {
+  color: #717171;
+  align-items: center;
+  height: 40px;
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+}
+
+.Submit:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 10px gray;
+
 }
 
 @media only screen and (max-width: 1000px) {
