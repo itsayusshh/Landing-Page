@@ -82,7 +82,7 @@ function Portfoliopage() {
       </div>
       <div className="container">
         <div className="img-con">
-          
+          <SliderComp />
           {/* <img src={Rafiki}></img> */}
         </div>
         <div id="container2">

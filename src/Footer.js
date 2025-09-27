@@ -8,6 +8,24 @@ function Footer() {
         <h1>Pellentesque suscipit fringilla libero eu.</h1>
         <button className="Pellentesque-button">Get a demo →</button>
       </div>
+      <br />
+      <form className="ContactForm">
+        <h4 className="Form">Please fill the form below to contact us!!</h4>
+        <br />
+        <div className="Row1">
+          <input className="text" placeholder="First name" />
+          <input type="text" placeholder="Last name" />
+        </div>
+        <br />
+        <div className="Row2">
+          <input type="email" placeholder="Please type your email" />
+        </div>
+        <br />
+        <div className="Row3">
+          <input type="text" placeholder="Reviewbox" />
+        </div>
+      </form>
+      <br />
       <div className="Pellentesque-2">
         <div className="Pellentesque-2-sec1">
           <div className="Pellentesque-0">

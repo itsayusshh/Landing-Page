@@ -580,6 +580,48 @@
   margin-left: 150px;
 }
 
+.ContactForm {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Row1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Row1 input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  height: 20px;
+  text-align: center;
+  border: none;
+  background-color: #f3f3f3;
+}
+
+.Row1 input:nth-child(2) {
+  margin-left: 10px;
+}
+
+.Row2 input {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  border: none;
+  padding: 10px 0 10px 0;
+  background-color: #f3f3f3;
+}
+
+.Row3 input {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  border: none;
+  padding: 10px 0 10px 0;
+  background-color: #f3f3f3;
+}
 
 @media only screen and (max-width: 1000px) {
   .menucontainer {
